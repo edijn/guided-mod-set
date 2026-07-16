@@ -1129,7 +1129,7 @@ function RecapScreen({ onBack, onHome, onItemMoves, sectionName, sectionMoves })
       <Card style={{ marginBottom: 14 }}>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, marginBottom: 14 }}>
           <Check size={20} color="#1E9E5A" />
-          <div style={{ fontSize: 20, fontWeight: 800, color: "#132029", letterSpacing: -0.3 }}>POG 2 Set complete</div>
+          <div style={{ fontSize: 20, fontWeight: 800, color: "#132029", letterSpacing: -0.3 }}>POG 2 Set Complete</div>
         </div>
 
         <div style={{ display: "flex", alignItems: "center", gap: 12, background: "#EDEFF2", borderRadius: 16, padding: "12px" }}>
@@ -1155,7 +1155,6 @@ function RecapScreen({ onBack, onHome, onItemMoves, sectionName, sectionMoves })
       </div>
 
       <Card style={{ marginBottom: 14 }}>
-        <div style={{ textAlign: "center", fontSize: 13.5, fontWeight: 800, color: "#132029", marginBottom: 10 }}>Current section layout</div>
         <img src={SECTION_LAYOUT_IMG} alt="" style={{ width: "100%", display: "block", borderRadius: 10 }} />
       </Card>
     </div>
